@@ -33,7 +33,7 @@
       <div>
         <main>
           <header>
-            <h3>About Me</h>
+            <h3>About Me</h3>
           </header>
         </main>
       </div>
