@@ -1,7 +1,9 @@
+/*set box-sizing to include padding and border in width and height of element*/
 * {
   box-sizing: border-box;
 }
 
+/*set background colors*/
 header {
   background-color: beige
 }
