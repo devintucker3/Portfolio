@@ -9,6 +9,11 @@ header {
   text-align: center;
 }
 
+main {
+  background-color: aliceblue;
+}
+
+/*changing text fonts and sizes*/
 h1 {
     font-size: 64px;
     font-family: Cursive;
@@ -19,25 +24,31 @@ h4 {
     font-family: Times New Roman;
 }
 
-main {
-  background-color: aliceblue;
-}
-
 p {
     font-size: 24px;
     font-family: Serif;
 }
 
-section > main > header {
-  background-color: aliceblue;
-  font-family: Arian;
-  font-size: 36px;
-}
-
+/*moving sections left and right*/
 .align-left {
     text-align: left;
 }
 
 .align-right {
     text-align: right;
+}
+
+/*borders*/
+header {
+    border: 2px solid black;
+}
+section {
+    border: 1px solid black;
+}
+
+/*slight fixes with section headers*/
+section > main > header {
+  background-color: aliceblue;
+  font-family: Arian;
+  font-size: 36px;
 }
