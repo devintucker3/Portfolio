@@ -5,7 +5,13 @@
 
 /*set background colors*/
 header {
-  background-color: beige
+  background-color: beige;
+  text-align: center;
+}
+
+header > h1 {
+    font-size: 64px;
+    font-style: Cursive;
 }
 
 main {
@@ -14,4 +20,14 @@ main {
 
 main > header {
   background-color: aliceblue;
+  font-style: Times New Roman;
+  font-size: 24px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
 }
