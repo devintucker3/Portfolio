@@ -1,43 +1,51 @@
-/*set box-sizing to include padding and border in width and height of element*/
-* {
-  box-sizing: border-box;
-}
+
 
 /*set background colors*/
 header {
-  background-color: beige;
+  background-color: #FFFACD;
 }
 
 main {
-  background-color: aliceblue;
+  background-color: #E0FFFF;
 }
 
 /*changing text fonts and sizes*/
 h1 {
     font-size: 64px;
-    font-family: cursive;
+    font-family: fantasy;
     text-align: center;
 }
 
 h4 {
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-h3 {
+h2 {
     font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: cetner;
 }
 
 p {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px;
+    text-align: center;
 }
 
-li {
+ul ol li {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*center image*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 /*styling links and pseudo-classes*/
@@ -50,7 +58,7 @@ a:link {
     color:black;
 }
 a:visited {
-    color:red;
+    color:burlywood;
 }
 a:hover {
     color:blue;
@@ -60,23 +68,21 @@ a:active {
 }
 
 /*moving sections left and right*/
-.align-left {
-    text-align: left;
+.align-center {
+    text-align: center;
 }
 
-.align-right {
-    text-align: right;
+.align-left {
+  text-align: left;
 }
 
 /*borders*/
 header {
-    border: 2px solid black;
-}
-article {
-    border: 1px solid black;
+    border: 2px inset black;
 }
 
-/*slight fixes with section headers*/
-article > main > header {
-  background-color: aliceblue;
+article {
+  width: 700px;
+  height:500px;
+  margin:50px;
 }
