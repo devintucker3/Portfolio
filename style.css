@@ -26,7 +26,7 @@ footer {
 }
 
 /*center image*/
-div > .center {
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -67,6 +67,11 @@ ul {
 ol {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h6 {
+    font-size:18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*styling links and pseudo-classes*/
