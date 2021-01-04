@@ -14,14 +14,24 @@ header > h1 {
     font-style: Cursive;
 }
 
+header > h4 {
+    font-size: 24px;
+    font-style: Times New Roman;
+}
+
 main {
   background-color: aliceblue;
 }
 
-main > header {
+p {
+    font-size: 14px;
+    font-style: Serif;
+}
+
+section > main > header {
   background-color: aliceblue;
-  font-style: Times New Roman;
-  font-size: 24px;
+  font-style: Arian;
+  font-size: 36px;
 }
 
 .align-left {
