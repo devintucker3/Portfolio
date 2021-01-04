@@ -10,11 +10,9 @@ header {
 
 main {
   background-color: #E0FFFF;
-  text-align: center;
 }
 
 article {
-    text-align: center;
     margin: 50px;
     height: 200px;
     padding: 50px;
@@ -63,22 +61,26 @@ p {
 ul {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
 
 ol {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
 
 h6 {
     font-size:18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 /*styling links and pseudo-classes*/
 a {
     font-family: Arial;
     font-size: 24px;
+    text-align: center;
 }
 
 a:link {
