@@ -13,7 +13,7 @@ main {
 
 /*bordering and cetnering containers*/
 header {
-    border: 2px inset black;
+    border: 2px solid black;
 }
 
 article {
@@ -23,7 +23,7 @@ article {
   text-align: center;
 }
 
-main > header {
+article > main > header {
   background-color: #E0FFFF;
   border: none;
 }
