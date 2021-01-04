@@ -2,17 +2,26 @@
     box-sizing: border-box;
 }
 
-/*set background colors*/
+/*set background colors and spacing containers*/
 header {
   background-color: #FFFACD;
+  border: 2px solid black;
 }
 
 main {
   background-color: #E0FFFF;
 }
 
-/*bordering and cetnering containers*/
-header {
+div {
+    text-align: center;
+    margin: 200px;
+    height: 800px;
+    padding: 100px;
+    width: 600px;
+}
+
+footer {
+    background-color: #FFFACD;
     border: 2px solid black;
 }
 
@@ -71,7 +80,7 @@ a:active {
     color:aliceblue;
 }
 
-/*moving sections left and right*/
+/*moving sections left or right*/
 .align-left {
   text-align: left;
 }
