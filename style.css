@@ -16,18 +16,6 @@ header {
     border: 2px solid black;
 }
 
-article {
-  width: 700px;
-  height:600px;
-  margin:200px;
-  text-align: center;
-}
-
-article > main > header {
-  background-color: #E0FFFF;
-  border: none;
-}
-
 /*changing text fonts and sizes*/
 h1 {
     font-size: 64px;
@@ -84,10 +72,6 @@ a:active {
 }
 
 /*moving sections left and right*/
-.align-center {
-    text-align: center;
-}
-
 .align-left {
   text-align: left;
 }
