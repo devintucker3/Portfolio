@@ -28,12 +28,6 @@ main > header {
   border: none;
 }
 
-/*center image*/
-img {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /*changing text fonts and sizes*/
 h1 {
     font-size: 64px;
