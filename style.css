@@ -12,7 +12,10 @@ footer {
     border: 2px solid black;
 }
 
-/*center image and containers*/
+/*center image, text and containers*/
+.text-centered {
+    text-align: center;
+}
 .wrapper {
   width: 300px;
   margin: auto;
