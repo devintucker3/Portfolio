@@ -6,7 +6,6 @@
 /*set background colors*/
 header {
   background-color: beige;
-  text-align: center;
 }
 
 main {
@@ -17,11 +16,13 @@ main {
 h1 {
     font-size: 64px;
     font-family: Cursive;
+    text-align: center;
 }
 
 h4 {
     font-size: 30px;
     font-family: Times New Roman;
+    text-align: center;
 }
 
 p {
