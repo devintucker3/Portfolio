@@ -12,11 +12,11 @@ main {
   background-color: #E0FFFF;
 }
 
-div {
+article {
     text-align: center;
     margin: 200px;
-    height: 800px;
-    padding: 100px;
+    height: 700px;
+    padding: 50px;
     width: 600px;
 }
 
