@@ -11,12 +11,12 @@ header {
 
 header > h1 {
     font-size: 64px;
-    font-style: Cursive;
+    font-family: Cursive;
 }
 
 header > h4 {
-    font-size: 24px;
-    font-style: Times New Roman;
+    font-size: 30px;
+    font-family: Times New Roman;
 }
 
 main {
@@ -24,13 +24,13 @@ main {
 }
 
 p {
-    font-size: 14px;
-    font-style: Serif;
+    font-size: 24px;
+    font-family: Serif;
 }
 
 section > main > header {
   background-color: aliceblue;
-  font-style: Arian;
+  font-family: Arian;
   font-size: 36px;
 }
 
