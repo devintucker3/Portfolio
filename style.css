@@ -12,8 +12,11 @@ footer {
     border: 2px solid black;
 }
 
-/*center image*/
-
+/*center image and containers*/
+.wrapper {
+  width: 300px;
+  margin: auto;
+}
 
 /*changing text fonts and sizes with centering*/
 h1 {
