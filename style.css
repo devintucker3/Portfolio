@@ -28,7 +28,7 @@ footer {
 /*changing text fonts and sizes*/
 h1 {
     font-size: 50px;
-    font-family: fantasy;
+    font-family: fantasy, monospace;
 }
 
 h4 {
