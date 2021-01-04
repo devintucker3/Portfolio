@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 /*set background colors*/
 header {
@@ -7,6 +9,29 @@ header {
 
 main {
   background-color: #E0FFFF;
+}
+
+/*bordering and cetnering containers*/
+header {
+    border: 2px inset black;
+}
+
+article {
+  width: 700px;
+  height:600px;
+  margin:50px;
+  text-align: center;
+}
+
+main > header {
+  background-color: #E0FFFF;
+  border: none;
+}
+
+/*center image*/
+img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*changing text fonts and sizes*/
@@ -25,7 +50,7 @@ h4 {
 h2 {
     font-size: 36px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: cetner;
+    text-align: center;
 }
 
 p {
@@ -35,17 +60,14 @@ p {
     text-align: center;
 }
 
-ul ol li {
+ul {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/*center image*/
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+ol {
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /*styling links and pseudo-classes*/
@@ -74,15 +96,4 @@ a:active {
 
 .align-left {
   text-align: left;
-}
-
-/*borders*/
-header {
-    border: 2px inset black;
-}
-
-article {
-  width: 700px;
-  height:500px;
-  margin:50px;
 }
