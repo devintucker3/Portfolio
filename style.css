@@ -77,6 +77,6 @@ article {
 }
 
 /*slight fixes with section headers*/
-section > main > header {
+article > main > header {
   background-color: aliceblue;
 }
