@@ -2,6 +2,8 @@
 header {
   background-color: #FFFACD;
   border: 2px solid black;
+  height: auto;
+  padding: 25px;
 }
 
 main {
@@ -10,6 +12,7 @@ main {
 footer {
     background-color: #FFFACD;
     border: 2px solid black;
+    height: auto;
 }
 
 /*center image, text and containers*/
@@ -19,8 +22,6 @@ footer {
 .wrapper {
   width: 400px;
   margin: auto;
-  padding: 40px;
-  height: 100px;
 }
 
 .align-left {
