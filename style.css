@@ -2,6 +2,8 @@
 header {
   background-color: #FFFACD;
   border: 2px solid black;
+  height: auto;
+  padding: 25px;
 }
 
 main {
@@ -10,6 +12,7 @@ main {
 footer {
     background-color: #FFFACD;
     border: 2px solid black;
+    height: auto;
 }
 
 /*center image, text and containers*/
@@ -17,14 +20,18 @@ footer {
     text-align: center;
 }
 .wrapper {
-  width: 300px;
+  width: 400px;
   margin: auto;
 }
 
-/*changing text fonts and sizes with centering*/
+.align-left {
+    text-align: left;
+}
+
+/*changing text fonts and sizes*/
 h1 {
     font-size: 50px;
-    font-family: fantasy;
+    font-family: fantasy, monospace;
 }
 
 h4 {
@@ -32,16 +39,26 @@ h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h2 h3 {
+h2 {
     font-size: 24px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 40px;
 }
 
-p li {
+h3 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+}
+
+p {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+}
 
+li {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h6 {
     font-size: 14px;
@@ -51,8 +68,7 @@ h6 {
 /*styling links and pseudo-classes*/
 a {
     font-family: Arial;
-    font-size: 14px;
-    text-align: left;
+    font-size: 16px;
 }
 
 a:link {
