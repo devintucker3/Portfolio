@@ -19,62 +19,79 @@ footer {
 .text-centered {
     text-align: center;
 }
+
 .wrapper {
-  margin: auto;
-}
+    margin: auto;
+  }
 
 .align-left {
     text-align: left;
 }
 
+.padding-bottom {
+    padding-bottom: 10px;
+}
+
 /*changing text fonts and sizes*/
 h1 {
-    font-size: 70px;
+    font-size: 60px;
     font-family: fantasy, monospace;
     text-align: center;
 }
 
 h4 {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
 h2 {
-    font-size: 44px;
+    font-size: 32px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 40px;
 }
 
 h3 {
-    font-size: 44px;
+    font-size: 32px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 40px;
 }
 
 p {
-    font-size: 30px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
 ul { 
-    text-align: left; 
-    list-style-position: inside; 
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0px;
 }
 
 li {
-    font-size: 30px;
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 20px;
 }
+
 h6 {
-    font-size: 28px;
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.project {
+    font-family: cursive;
+    font-size: 20px;
+    padding-bottom: 5px;
 }
 
 /*styling links and pseudo-classes*/
 a {
     font-family: Arial;
-    font-size: 36px;
+    font-size: 18px;
+    padding-inline-start: 0px;
+    padding-inline: 10px;
+    min-width: 100%;
+    flex-direction: column;
 }
 
 a:link {
@@ -88,6 +105,11 @@ a:hover {
 }
 a:active {
     color:aliceblue;
+}
+
+label, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 /* flexbox */
@@ -112,11 +134,7 @@ header nav ul {
     display: flex;
     padding-left: 0;
     list-style: none;
-}
-
-header nav ul li {
-    padding: 10px;
-
+    justify-content: space-between;
 }
 
 header nav {
@@ -157,9 +175,6 @@ form textarea {
         flex: 2;
     }
 
-    ul {
-        padding-left: 150px;
-    }
 
     .padding-top {
         padding-top: 100px;

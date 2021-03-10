@@ -39,7 +39,7 @@
                                 <p>From my professional experience and love of working in teams, I hope to:</p>
                                 <ul>
                                     <li>Learn as much as possible about web development and programming</li>
-                                    <li>Create websites that have a quality asthestic and work well</li>
+                                    <li>Create websites that have a quality aesthetic and work well</li>
                                     <li>Meet and work with new people all over the world!</li>
                                 </ul>
                             </div>
@@ -53,7 +53,7 @@
                                 <div class="item" id="about">
                                     <h3>About Me</h3>
                                     <p>I've had the luxury of dabbling in many professions, including running my own landscaping business. 
-                                        Overtime, as a result, I began to understand the need for a presence on the web in all of them. I look 
+                                        Over time, as a result, I began to understand the need for a presence on the web in all of them. I look 
                                         forward to working on the other side of that need and building my knowledge of web-based development.</p>
                                     <p>Currently attending the Software Engineering Immersion Bootcamp at Thinkful, and learning so much 
                                         everyday the more I dive into it all! So much to learn which is exciting! (Also, a little terrifying.)</p>
@@ -64,48 +64,69 @@
                         <!--Projects-->
                                 <div class="item" id="projects">
                                     <h3>Projects!</h3>
-                                    <ul>
-                                        <li>Project Title #1</li>
-                                            <p>Project Description</p>
-                                            <p>Skills used</p>
-                                            <a href="link" target="_blank">Link</a>
-                                        <li>Project Title #2</li>
-                                            <p>Project Description</p>
-                                            <p>Skills used</p>
-                                            <a href="link" target="_blank">Link</a>
-                                    </ul>
-                                </div>
-                        <!--Contact me section with web links in ordered list-->
-                                <div class="item" id="contact">
-                                    <h3>Contact Me</h3>
-                                    <div class="text-centered">
-                                        <ul>
-                                            <li><a href="mailto:tuckerdevin16@gmail.com" target="_blank">Email</a></li>
-                                            <li><a href="https://www.linkedin.com/in/devin-tucker-99b4b1bb" target="_blank">LinkedIn</a></li>
-                                            <li><a href="https://github.com/devintucker3" target="_blank">GitHub</a></li>
-                                            <form action="https://formspree.io/tuckerdevin16@gmail.com" method="POST">
-                                                <label for="user-name">Name:</label> 
-                                                <input id="user-name" type="text" name="name">
-                                                <label for="user-email">Email:</label>
-                                                <input id="user-email" type="text" name="email">
-                                                <label for="user-message">Your message:</label>
-                                              <textarea id="user-message" name="message"></textarea>
-                                            <button type="submit">Submit</button>
-                                            </form>
-                                        </ul>
+                                    <div>
+                                        <p class="project">Project Title #1</p>
+                                        <p class="padding-bottom">
+                                            Project Description: The project does a little bit of this and a little bit of that. 
+                                            Meant for this and meant for that. Got lots of stuff. SO MUCH STUFF. Can't empathize it enough how much 
+                                            stuff is in this. You are in for a treat with how much stuff is going down in this project.</p>
+                                        <p>Skills used: Javascript, HTML, CSS, React</p>
+                                        <div>
+                                            <a href="link" target="_blank">Website Link</a>
+                                            <a href="link" target="_blank">Github Link</a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="project">Project Title #2</p>
+                                        <p class="padding-bottom">
+                                            Project Description: The project does a little bit of this and a little bit of that. 
+                                            Meant for this and meant for that. Got lots of stuff. SO MUCH STUFF. Can't empathize it enough how much 
+                                            stuff is in this. You are in for a treat with how much stuff is going down in this project.</p>
+                                        <p>Skills used: Javascript, HTML, CSS, React</p>
+                                        <div>
+                                            <a href="link" target="_blank">Website Link</a>
+                                            <a href="link" target="_blank">Github Link</a>
+                                        </div>
                                     </div>
                                 </div>
                         </div>
                     </section>
+                    <hr>
+                    <section>
+                        <div class="group">
+                            <!--Contact me section with web links in ordered list-->
+                            <div class="item" id="contact">
+                                <h3>Contact Me</h3>
+                                <div class="text-centered">
+                                    <ul>
+                                        <li><a href="mailto:tuckerdevin16@gmail.com" target="_blank">Email</a></li>
+                                        <li><a href="https://www.linkedin.com/in/devin-tucker-99b4b1bb" target="_blank">LinkedIn</a></li>
+                                        <li><a href="https://github.com/devintucker3" target="_blank">GitHub</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <form action="https://formspree.io/f/mrgonpbq" method="POST" class="align-left">
+                                    <label for="user-name">Name:</label> 
+                                    <input id="user-name" type="text" name="name">
+                                    <label for="user-email">Email:</label>
+                                    <input id="user-email" type="text" name="email">
+                                    <label for="user-message">Your message:</label>
+                                  <textarea id="user-message" name="message"></textarea>
+                                <button type="submit">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
             </div>
+            <!--footer with my name-->
+            <footer>
+                <div class="wrapper text-centered">
+                    <h6>Devin Tucker</h6>
+                </div>
+            </footer>
         </main>
 
-        <!--footer with my name-->
-        <footer>
-            <div class="wrapper text-centered">
-                <h6>Devin Tucker</h6>
-            </div>
-        </footer>
 
         <script src="script.js"></script>
     </body>
